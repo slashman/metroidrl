@@ -1,0 +1,517 @@
+<monsters>
+	<monster 
+		id = "SIDEHOOPER"
+		appearance = "SIDEHOOPER"
+		description = "Sidehopper"
+		longDescription = "Sidehoppers are insectoid, bipedal creatures with a pair of powerful, piston-like legs enabling it to perform great leaps, and two enormous mandibles hanging directly beneath its head."
+		hits = "5"
+		attack = "2"
+		walkCost = "50"
+		>
+		<selector>
+			<sel_basic>
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_CHARGE" 
+						range = "2" frequency = "95" message= "hits you!"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+		<charImage>
+			<charsData>
+<line l="              _/----\_"/>
+<line l="             /'\..../`\"/>
+<line l="          /--,..`..'..,--\"/>
+<line l="          \,./ |.||.| \.,/ "/>
+<line l="           ||   '  `   ||"/>
+<line l="         \/\/\        /\/\/"/>
+<line l="        ././\./      \./\.\."/>
+			</charsData>
+			<colorData>
+<colorLine l="              YGGGGGGY"/>
+<colorLine l="             YYGGBBGGYY"/>
+<colorLine l="          BBBYYGBBBBGYYBBB"/>
+<colorLine l="          BBYB BBBBBB BYBB"/>
+<colorLine l="           YY   B  B   YY"/>
+<colorLine l="         BBBYY        YYBBB"/>
+<colorLine l="        YYYBBYY      YYBBYYY"/>
+			</colorData>
+		</charImage>
+	</monster>
+	<monster 
+		id = "RED_ANT"
+		appearance = "RED_ANT"
+		description = "Mutant Red Ant"
+		hits = "6"
+		attack = "4"
+		walkCost = "30"
+		>
+		<selector>
+			<sel_basic>
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_CHARGE" 
+						range = "2" frequency = "95" message= "bites you!"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>	
+		
+	<monster 
+		id = "AUTOTOAD"
+		appearance = "AUTOTOAD"
+		description = "Autoad"
+		longDescription = "The Autoad is a jumping toadlike robot built by the ancient Chozo civilization. It is programmed to stop intruders."
+		hits = "3"
+		attack = "3"
+		walkCost = "30"
+		>
+		<selector>
+			<sel_basic>
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_CHARGE" 
+						range = "2" frequency = "95" message= "hits you!"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>	
+	<monster 
+		id = "HORNOAD"
+		appearance = "HORNOAD"
+		description = "Hornoad"
+		longDesciption = "Hornoads are creatures that live on planet SR388. They are at the near-bottom of the food chain. They are capable of shooting little balls of acid out of their mouths and are very weak"
+		hits = "8"
+		attack = "4"
+		walkCost = "30"
+		>
+		<selector>
+			<sel_basic>
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_CHARGE" 
+						range = "2" frequency = "95" message= "hits you!"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>	
+	<monster 
+		id = "DRIVEL"
+		appearance = "DRIVEL"
+		description = "Drivel Bat"
+		hits = "3"
+		attack = "3"
+		walkCost = "40"
+		>
+		<selector>
+			<sel_basic>
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_CHARGE" 
+						range = "2" frequency = "95" message= "bites you!"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>
+	
+	<monster 
+		id = "SHRIEK"
+		appearance = "SHRIEK"
+		description = "ShriekBat"
+		longDescription = "The Shriekbat is a territorial ceiling dweller. Body temperature peaks at 121 centigrade. Shriekbats have high internal temperature, making them easy to spot with thermal imaging. They roost on cave ceilings while hunting for small prey. Fiercely territorial, they dive-bomb anything that wanders near"
+		hits = "6"
+		attack = "8"
+		walkCost = "40"
+		>
+		<selector>
+			<sel_basic waitPlayerRange = "4">
+				<rangedAttacks>
+					<rangedAttack id = "KAMIKAZE" 
+						range = "2" frequency = "100" message= "explodes!"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>
+
+	<monster 
+		id = "ZOOMER"
+		appearance = "ZOOMER"
+		description = "Zoomer"
+		longDescription = "Zoomers are semi-spherical mollusks with spikes along their backs similar to Geemers."
+		hits = "2"
+		attack = "2"
+		walkCost = "40"
+		sightRange = "1"
+		>
+		<selector>
+			<sel_basic/>
+		</selector>
+	</monster>	
+	
+	<monster 
+		id = "GEEMER"
+		appearance = "GEEMER"
+		description = "Geemer"
+		longDescription = "A small but dangerous creature that exposes sharp spikes on its back when threatened. This scavenger is known to forage through human refuse and is an infamous pest on Zebes."
+		hits = "12"
+		attack = "2"
+		walkCost = "40"
+		sightRange = "1"
+		>
+		<selector>
+			<sel_basic/>
+		</selector>
+	</monster>	
+	
+
+	<monster 
+		id = "ZEELA"
+		appearance = "ZEELA"
+		description = "Zeela"
+		longDescription = "Zeela are arthropods sporting long eyestalks"
+		hits = "2"
+		attack = "2"
+		walkCost = "40"
+		sightRange = "2"
+		>
+		<selector>
+			<sel_basic/>
+		</selector>
+	</monster>			
+	
+	<monster 
+		id = "CACATAC"
+		appearance = "CACATAC"
+		description = "Cacatac"
+		hits = "5"
+		attack = "3"
+		walkCost = "40"
+		>
+		<selector>
+			<sel_basic stationary="true">
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_MISSILE" type = "STRAIGHT"
+						range = "8" frequency = "40" message= "shoots a spike"
+						effectType="missile" effectID="SFX_SPIKE"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>	
+	
+	<monster 
+		id = "GALACTIC_TROOPER"
+		appearance = "GALACTIC_TROOPER"
+		description = "GF Trooper"
+		hits = "2"
+		attack = "4"
+		walkCost = "60"
+		>
+		<selector>
+			<sel_basic approachLimit = "4">
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_MISSILE" type = "STRAIGHT"
+						range = "8" frequency = "40" message= "shoots at you."
+						effectType="missile" effectID="SFX_ENERGY_SHOT" effectWav="wav/m_skeleton.wav"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>
+	<monster 
+		id = "GALACTIC_SOLDIER"
+		appearance = "GALACTIC_SOLDIER"
+		description = "GF Soldier"
+		hits = "4"
+		attack = "4"
+		walkCost = "60"
+		>
+		<selector>
+			<sel_basic approachLimit = "5">
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_MISSILE" type = "STRAIGHT"
+						range = "8" frequency = "40" message= "shoots at you."
+						effectType="missile" effectID="SFX_ENERGY_SHOT" effectWav="wav/m_skeleton.wav"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>
+
+	<monster 
+		id = "GALACTIC_ROBOT"
+		appearance = "GALACTIC_ROBOT"
+		description = "GF Robotic Guard"
+		hits = "10"
+		attack = "5"
+		walkCost = "80"
+		>
+		<selector>
+			<sel_basic approachLimit = "5">
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_MISSILE" type = "STRAIGHT"
+						range = "12" frequency = "40" message= "shoots a missile you."
+						effectType="missile" effectID="SFX_MISSILE_SHOT" effectWav="wav/m_skeleton.wav"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>
+	
+	<monster 
+		id = "METROID"
+		appearance = "METROID"
+		description = "Metroid"
+		hits = "5"
+		attack = "5"
+		walkCost = "60"
+		>
+		<selector>
+			<sel_basic>
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_MISSILE" type = "AXE"
+						range = "6" frequency = "30" message= "throws a bone at you"
+						effectType="missile" effectID="SFX_ROTATING_BONE" effectWav="wav/m_skeleton.wav"/>
+					<rangedAttack id = "MONSTER_MISSILE" status_effect = "STUN" type = "AXE"
+						range = "6" frequency = "30" message= "throws a yellow bone at you"
+						effectType="missile" effectID="SFX_ROTATING_BONE" effectWav="wav/m_skeleton.wav"/>	
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>
+	
+	<monster 
+		id = "DEFENSE_BOT"
+		appearance = "DEFENSE_BOT"
+		description = "GF Defense Robot"
+		hits = "8"
+		attack = "6"
+		walkCost = "50"
+		>
+		<selector>
+			<sel_basic approachLimit = "3">
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_MISSILE" type = "STRAIGHT"
+						range = "8" frequency = "40" message= "shoots at you."
+						effectType="missile" effectID="SFX_ENERGY_SHOT" effectWav="wav/m_skeleton.wav"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>
+
+	<monster 
+		id = "BIO_TROOPER"
+		appearance = "BIO_TROOPER"
+		description = "GF BioTrooper"
+		hits = "5"
+		attack = "2"
+		walkCost = "40"
+		>
+		<selector>
+			<sel_basic approachLimit = "4">
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_MISSILE" type = "STRAIGHT"
+						range = "8" frequency = "40" message= "shoots at you."
+						effectType="missile" effectID="SFX_ENERGY_SHOT" effectWav="wav/m_skeleton.wav"/>
+					<rangedAttack id = "MONSTER_MISSILE" type = "STRAIGHT" damage = "8"
+						range = "6" frequency = "40" message= "shoots biologic waste at you."
+						effectType="missile" effectID="SFX_BIO_SHOT" effectWav="wav/m_skeleton.wav"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>	
+	<monster 
+		id = "TOXIC_TROOPER"
+		appearance = "TOXIC_TROOPER"
+		description = "GF ToxicTrooper"
+		hits = "5"
+		attack = "2"
+		walkCost = "40"
+		>
+		<selector>
+			<sel_basic approachLimit = "4">
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_MISSILE" type = "STRAIGHT"
+						range = "8" frequency = "40" message= "shoots at you."
+						effectType="missile" effectID="SFX_ENERGY_SHOT" effectWav="wav/m_skeleton.wav"/>
+					<rangedAttack id = "MONSTER_MISSILE" type = "STRAIGHT" damage = "8"
+						range = "3" frequency = "60" message= "shoots toxic powder at you."
+						effectType="missile" effectID="SFX_TOXIC_SHOT" effectWav="wav/m_skeleton.wav"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>		
+	<monster 
+		id = "MUTANT_TROOPER"
+		appearance = "MUTANT_TROOPER"
+		description = "GF MutantTrooper"
+		hits = "6"
+		attack = "5"
+		walkCost = "35"
+		>
+		<selector>
+			<sel_basic approachLimit = "4">
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_MISSILE" type = "STRAIGHT" damage = "6"
+						range = "8" frequency = "40" message= "shoots at you."
+						effectType="missile" effectID="SFX_ENERGY_SHOT" effectWav="wav/m_skeleton.wav"/>
+					<rangedAttack id = "MONSTER_CHARGE" 
+						range = "2" frequency = "60" message= "kicks you!"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>		
+		<monster 
+		id = "GUARDIAN_ROBOFROG"
+		appearance = "GUARDIAN_ROBOFROG"
+		description = "Guardian Robofrog"
+		hits = "3"
+		attack = "4"
+		walkCost = "30"
+		>
+		<selector>
+			<sel_basic>
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_CHARGE" 
+						range = "2" frequency = "60" message= "kicks you!"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>	
+	<monster 
+		id = "RADIATED_BEING"
+		appearance = "RADIATED_BEING"
+		description = "Radiated Being"
+		hits = "10"
+		attack = "4"
+		walkCost = "75"
+		>
+		<selector>
+			<sel_basic>
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_MISSILE" type = "STRAIGHT" damage = "8"
+						range = "8" frequency = "40" message= "projects radiation at at you!"
+						effectType="missile" effectID="SFX_RADIATION_SHOT" effectWav="wav/m_skeleton.wav"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>		
+		<monster 
+		id = "GUARDIAN"
+		appearance = "GUARDIAN"
+		description = "Machina Guardian"
+		hits = "20"
+		attack = "5"
+		walkCost = "120"
+		>
+		<selector>
+			<sel_basic>
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_MISSILE" type = "STRAIGHT" damage = "10"
+						range = "8" frequency = "20" message= "shoots a bacterial spray at you!"
+						effectType="missile" effectID="SFX_BACTERIAL_SHOT" effectWav="wav/m_skeleton.wav"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>	
+	<monster 
+		id = "TOXIC_DRAGONFLY"
+		appearance = "TOXIC_DRAGONFLY"
+		description = "Toxic Dragonfly"
+		hits = "15"
+		attack = "4"
+		walkCost = "20"
+		>
+		<selector>
+			<sel_basic approachLimit = "5">
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_MISSILE" type = "STRAIGHT" damage = "10"
+						range = "8" frequency = "20" message= "drops toxic powder!"
+						effectType="missile" effectID="SFX_TOXIC_SHOT" effectWav="wav/m_skeleton.wav"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>
+	<monster 
+		id = "PULSAR_AUTOTURRET"
+		appearance = "PULSAR_AUTOTURRET"
+		description = "Pulsar Autoturret"
+		hits = "20"
+		attack = "5"
+		walkCost = "100"
+		>
+		<selector>
+			<sel_basic>
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_MISSILE" type = "STRAIGHT" damage = "10"
+						range = "8" frequency = "20" message= "shoots a plasma cannon at you!"
+						effectType="missile" effectID="SFX_PLASMA_TURRET" effectWav="wav/m_skeleton.wav"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>	
+		<monster 
+		id = "BACTROID"
+		appearance = "BACTROID"
+		description = "Bactroid?"
+		hits = "15"
+		attack = "5"
+		walkCost = "20"
+		>
+		<selector>
+			<sel_basic>
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_MISSILE" type = "STRAIGHT" damage = "25"
+						range = "2" frequency = "95" message= "extracts your energy!"
+						effectType="missile" effectID="SFX_DRAIN" effectWav="wav/m_skeleton.wav"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>
+	
+	<monster 
+		id = "GENETROID"
+		appearance = "GENETROID"
+		description = "Genetroid?"
+		hits = "15"
+		attack = "5"
+		walkCost = "20"
+		>
+		<selector>
+			<sel_basic>
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_MISSILE" type = "STRAIGHT" damage = "25"
+						range = "2" frequency = "95" message= "extracts your energy!"
+						effectType="missile" effectID="SFX_DRAIN" effectWav="wav/m_skeleton.wav"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>
+	<monster 
+		id = "POWDER_CANNON"
+		appearance = "POWDER_CANNON"
+		description = "Toxic Cannon"
+		hits = "25"
+		attack = "5"
+		walkCost = "115"
+		>
+		<selector>
+			<sel_basic>
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_MISSILE" type = "STRAIGHT" damage = "15"
+						range = "8" frequency = "20" message= "shoots toxic powder at you!"
+						effectType="missile" effectID="SFX_TOXIC_SHOT" effectWav="wav/m_skeleton.wav"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>	
+	<monster 
+		id = "BONY"
+		appearance = "BONY"
+		description = "Bony"
+		hits = "125"
+		attack = "4"
+		walkCost = "30"
+		>
+		<selector>
+			<sel_basic>
+				<rangedAttacks>
+					<rangedAttack id = "MONSTER_MISSILE" type = "STRAIGHT" damage = "25"
+						range = "2" frequency = "95" message= "tries to get your soul!"
+						effectType="missile" effectID="SFX_DRAIN" effectWav="wav/m_skeleton.wav"/>
+				</rangedAttacks>
+			</sel_basic>
+		</selector>
+	</monster>
+</monsters>
