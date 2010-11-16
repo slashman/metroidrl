@@ -1,0 +1,226 @@
+<mapData>
+	<cellmaps>
+		<cellmap id = "GENERIC">
+			<cellmapping char="*" cell="ELEVATOR"/>
+			<cellmapping char="C" cell="WORKSTATION"/>
+		</cellmap>
+		<cellmap id = "ATO">
+			<cellmapping char="." cell="YELLOWISH_FLOOR"/>
+			<cellmapping char="#" cell="YELLOWISH_WALL"/>
+		</cellmap>
+		<cellmap id = "BAC">
+			<cellmapping char="." cell="GREENISH_FLOOR"/>
+			<cellmapping char="#" cell="GREENISH_WALL"/>
+		</cellmap>
+		<cellmap id = "CHE">
+			<cellmapping char="." cell="BLUEISH_FLOOR"/>
+			<cellmapping char="#" cell="BLUEISH_WALL"/>
+		</cellmap>
+		<cellmap id = "GEN">
+			<cellmapping char="." cell="PURPLISH_FLOOR"/>
+			<cellmapping char="#" cell="PURPLISH_WALL"/>
+		</cellmap>
+	</cellmaps>
+	<rooms>
+		<room id="CONTROL_ROOM" cellmap="GENERIC" facet="CONTROL">
+			<map>
+				<r>#################</r>
+				<r>#...............#</r>
+				<r>D.C..C..M..C..C.D</r>
+				<r>D.......M.......D</r>
+				<r>D.......M.......D</r>
+				<r>D.C..C..M..C..C.D</r>
+				<r>#...............#</r>
+				<r>#################</r>
+			</map>
+			<map>
+				<r>#################</r>
+				<r>#...............#</r>
+				<r>D.C..C..#..C..C.D</r>
+				<r>D.......#.......D</r>
+				<r>D.C..C.....C..C.D</r>
+				<r>D......###......D</r>
+				<r>D.C..C.....C..C.D</r>
+				<r>D.......#.......D</r>
+				<r>D.C..C..#..C..C.D</r>
+				<r>#...............#</r>
+				<r>#################</r>
+			</map>
+			<description>
+				This room has some workstations and giant mainframes as 
+				well as wall mounted computer displays
+			</description>
+			<cellmap>
+				<cellmapping char="C" cell="WORKSTATION"/>
+				<cellmapping char="M" cell="MAINFRAME"/>
+				<cellmapping char="D" cell="GIANTDISPLAY"/>
+			</cellmap>
+		</room>
+		<room id="POWERGENERATORS" cellmap="GENERIC" facet="POWERLEVEL">
+			<map>
+				<r>#################</r>
+				<r>#...............#</r>
+				<r>#.PPPPP..CPPPPP.#</r>
+				<r>#...............#</r>
+				<r>#.PPPPP...PPPPP.#</r>
+				<r>#...............#</r>
+				<r>#.PPPPPC..PPPPP.#</r>
+				<r>#...............#</r>
+				<r>#################</r>
+			</map>
+			<map>
+				<r>#################</r>
+				<r>#...............#</r>
+				<r>#.P.P.P..CP.P.P.#</r>
+				<r>#.P.P.P...P.P.P.#</r>
+				<r>#.P.P.P...P.P.P.#</r>
+				<r>#.P.P.P...P.P.P.#</r>
+				<r>#.P.P.PC..P.P.P.#</r>
+				<r>#...............#</r>
+				<r>#################</r>
+			</map>
+			<description>
+				There is a cluster of power generators whose function
+				is to store generated energy
+			</description>
+			<cellmap>
+				<cellmapping char="P" cell="ENERGY_GENERATOR"/>
+				<cellmapping char="C" cell="WORKSTATION"/>
+			</cellmap>
+		</room>
+		<room id="ATOMIC_LAB" cellmap="ATO" facet="ATO">
+			<map>
+				<r>#################</r>
+				<r>#..S..S..S..S...#</r>
+				<r>#...............#</r>
+				<r>#.#-----------#.#</r>
+				<r>#.#:::::::::::#.#</r>
+				<r>#.#-----------#.#</r>
+				<r>#...............#</r>
+				<r>#.#C.........C#.#</r>
+				<r>#...............#</r>
+				<r>#.#-----------#.#</r>
+				<r>#.#:::::::::::#.#</r>
+				<r>#.#-----------#.#</r>
+				<r>#...............#</r>
+				<r>#...............#</r>
+				<r>#################</r>
+			</map>
+			<map>
+				<r>#################</r>
+				<r>#..S..S..S..S...#</r>
+				<r>#...............#</r>
+				<r>#.#-----------#.#</r>
+				<r>#.#:::::::::::#.#</r>
+				<r>#.#-----------#.#</r>
+				<r>#...............#</r>
+				<r>#################</r>
+			</map>
+			<map>
+				<r>#################</r>
+				<r>#...............#</r>
+				<r>#.###S.....S###.#</r>
+				<r>#.-:-.......-:-.#</r>
+				<r>#.-:-.......-:-.#</r>
+				<r>#.###S.....S###.#</r>
+				<r>#...............#</r>
+				<r>#################</r>
+			</map>
+			<description>
+				This lab seems to be designed to experiment with reactive elements. There are some
+				radiation suits over the walls.
+			</description>
+			<cellmap>
+				<cellmapping char="-" cell="CRYSTAL_WALL"/>
+				<cellmapping char=":" cell="RADIOACTIVE_AREA"/>
+				<cellmapping char="S" cell="YELLOWISH_FLOOR ITEM RADIATION_SUIT"/>
+				<cellmapping char="C" cell="WORKSTATION"/>
+			</cellmap>
+		</room>
+		<room id="CHEMICAL_LAB" cellmap="CHE" facet="CHE">
+			<map>
+				<r>#################</r>
+				<r>#..S..S..S..S...#</r>
+				<r>#...............#</r>
+				<r>#.#-----------#.#</r>
+				<r>#.#:::::::::::#.#</r>
+				<r>#.#-----------#.#</r>
+				<r>#...............#</r>
+				<r>#.#C.........C#.#</r>
+				<r>#...............#</r>
+				<r>#.#-----------#.#</r>
+				<r>#.#:::::::::::#.#</r>
+				<r>#.#-----------#.#</r>
+				<r>#...............#</r>
+				<r>#...............#</r>
+				<r>#################</r>
+			</map>
+			<description>
+				This lab seems to be designed to experiment with reactive elements. There are some
+				radiation suits over the walls.
+			</description>
+			<cellmap>
+				<cellmapping char="-" cell="CRYSTAL_WALL"/>
+				<cellmapping char=":" cell="RADIOACTIVE_AREA"/>
+				<cellmapping char="S" cell="YELLOWISH_FLOOR ITEM RADIATION_SUIT"/>
+			</cellmap>
+		</room>
+		<room id="GENETICAL_LAB" cellmap="GEN" facet="GEN">
+			<map>
+				<r>#################</r>
+				<r>#..S..S..S..S...#</r>
+				<r>#...............#</r>
+				<r>#.#-----------#.#</r>
+				<r>#.#:::::::::::#.#</r>
+				<r>#.#-----------#.#</r>
+				<r>#...............#</r>
+				<r>#.#C.........C#.#</r>
+				<r>#...............#</r>
+				<r>#.#-----------#.#</r>
+				<r>#.#:::::::::::#.#</r>
+				<r>#.#-----------#.#</r>
+				<r>#...............#</r>
+				<r>#...............#</r>
+				<r>#################</r>
+			</map>
+			<description>
+				This lab seems to be designed to experiment with reactive elements. There are some
+				radiation suits over the walls.
+			</description>
+			<cellmap>
+				<cellmapping char="-" cell="CRYSTAL_WALL"/>
+				<cellmapping char=":" cell="RADIOACTIVE_AREA"/>
+				<cellmapping char="S" cell="YELLOWISH_FLOOR ITEM RADIATION_SUIT"/>
+			</cellmap>
+		</room>
+		<room id="BACTERIAL_LAB" cellmap="BAC" facet="BAC">
+			<map>
+				<r>#################</r>
+				<r>#..S..S..S..S...#</r>
+				<r>#...............#</r>
+				<r>#.#-----------#.#</r>
+				<r>#.#:::::::::::#.#</r>
+				<r>#.#-----------#.#</r>
+				<r>#...............#</r>
+				<r>#.#C.........C#.#</r>
+				<r>#...............#</r>
+				<r>#.#-----------#.#</r>
+				<r>#.#:::::::::::#.#</r>
+				<r>#.#-----------#.#</r>
+				<r>#...............#</r>
+				<r>#...............#</r>
+				<r>#################</r>
+			</map>
+			<description>
+				This lab seems to be designed to experiment with reactive elements. There are some
+				radiation suits over the walls.
+			</description>
+			<cellmap>
+				<cellmapping char="-" cell="CRYSTAL_WALL"/>
+				<cellmapping char=":" cell="RADIOACTIVE_AREA"/>
+				<cellmapping char="S" cell="YELLOWISH_FLOOR ITEM RADIATION_SUIT"/>
+			</cellmap>
+		</room>
+
+	</rooms>
+</mapData>

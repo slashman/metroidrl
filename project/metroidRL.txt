@@ -1,0 +1,442 @@
+Samus
+ Suit {Power, Varia, Gravity, Zero}
+ Visor {Combar, Scan, Thermal, X-Ray}
+ Power Bombs #
+ Missiles #
+ Super Missiles #
+ MissileTankCapacity #
+ SuperMissileTankCapacity #
+ PowerBombTankCapacity #
+ Energy #
+ EnergyTankCapacity #
+ ReserveEnergy #
+ ReserveTanksCapacity #
+ Activable Skills
+  Power Bomb
+  Morphing Ball
+  Power Bomb
+  Charge Beam
+ Gained abilities
+  
+ Switchable abilities
+  Spider Ball
+  Spring Ball
+  Charge Beam
+  Wide Beam
+  Long Beam
+  Ice Beam
+  Wave Beam
+  Plasma Beam
+  High Jump
+  Space jump
+  Screw Attack
+  Grapling Beam
+ 
+Actions
+ Move
+ Jump
+ Fire Beam
+ Fire Missile
+ Fire Super Missile
+ Fire Grappling Beam
+ Activate Readied Visor
+ Morph in Ball
+ Drop Bomb
+ Drop Super Bomb
+ 
+ 
+==Powerups==
+Suit
+ Power Suit: Starts with this
+ Varia Suit: +5 Defense, Resist heat
+ Gravity Suit: +10 Defense, Walk quickly underwater, Resist Extreme Hear
+ Zero Suit: +10 Agility, +5 Jump time
+
+Bombs
+ Morphing Ball Bomb: Radius 2, Attack 3
+ Power Bomb: Radius 20, Attack 6
+
+Balls
+ Morphing Ball: Allows to morph into ball
+ Boost Ball: 
+ Spider Ball: Climbs walls
+ Spring Ball: Allows to jump when made ball
+
+Visors
+ Combat Visor: Shows ammo, health, etc (default visor) Range: 8
+ Scan Visor: Shows enemies characteristics Range: 9
+ Thermal Visor: Shows enemies that are thermally visible Range: 6
+ X-Ray Visor: Allows to see through walls, discovering breakable things Range 10
+ 
+Beams
+ Power Beam: Attack 1, Range 5
+ Charge Beam: Allows to charge, Adds 4 to attack
+ Wide Beam: Covers more area
+ Long Beam: Attack 1, Range 20
+ Ice Beam: Attack 3, Freezes Enemies
+ Wave Beam: Attack 3, Goes through walls
+ Plasma Beam: Attack 6
+
+Missiles
+ Missile: Attack 3, Range 20
+ Super Missiles: Attack 10, Range 20
+ Ice Missiles: Nah
+ Diffusion Missiles: Nah
+ 
+Items
+ Energy Tank: Adds 1 energy tank
+ Reserve Tank: Adds 1 reserve tank
+ Missile Expansion: 5 more missiles
+ Super Missile Expansion: 5 more supermissiles
+ Power Bomb Expansion: 5 more bombs
+ 
+Movement Systems
+ High Jump Boots: +5 Jump time
+ Space jump: Consecutive jumps
+ Screw Attack: Attack 15 on screwing jump
+ Grapling Beam: Sticks to metallic surfaces and enemies
+ 
+Areas
+
+Crateria
+ Surface area of Zebes
+ Has a destrouyed tourian
+ Enemies
+  KiHunters insectoids closely resembling wasps or praying mantises. They have four limbs and a set of wings
+   Loses their wing when damaged
+   Spit acid
+ 
+Brinstar
+ Rock and jungle
+ Enemies
+  Geemers: Small semi-circular creatures with spikes along their backs. 
+   Walks in set patterns, doesnt follow player
+  Zeela: Yellow creatures very similar to crabs. 
+   Walks in set patterns, doesnt follow player
+  Rippers: Small brown turtle-like creatures 
+   Float back and forth at a set speed. 
+   Can only be destroyed by super missiles
+  Rocket-Rippers: Variant of the Ripper, coloured red rather than brown, which travels much faster.
+  Cacatac: Appears to be a plant but is actually animated. 
+   Swells to a larger size before expelling spike-shaped projectiles in all directions.
+  Boss: Spore Spawn: 
+   Prize: Super Missiles
+   Attacks:
+    Falling spores
+    Plant-like neck lash.
+Maridia 
+ Water flooded area
+ Between Brinstar, Crateria, Wrecked Ship, Norfair
+ Enemies
+  Space Pirate: Can only be defeated with plasma beam
+Norfair
+ Magma filled labyrinth, Chozo ruins
+ Areas that need Varia Suit for heat and gravity suit to resist lava
+Wrecked Ship
+ Spaceship that crashed on a body of water
+Space Pirate Mothership
+ A spaceship
+Chozodia
+Tourian
+ Subterranean fortress of Zebes
+ Metroids
+ 
+ Mother Brain
+ 
+ 
+
+Arachnus
+
+Arachnus is an animal originating from the planet SR-388. The biped is distinguished by its four toothed maw, segmented eyes, elongated neck, the hard shell on its back, and the large claws on its fore-arms. It is known to curl into an armored ball when threatened, and only periodically emerges from the ball in order to attack with either its claws, or by spitting fire from its mouth.
+
+Arachnus made its first appearance in Metroid II: Return of Samus, in the depths of the planet SR-388, near the final area that housed the Queen Metroid. Here it disguised itself as one of the classic item balls held by the Chozo statues. Defeating it yields access to the Chozo statue that holds the Spring Ball.
+
+Arachnus' 2nd appearance is as the first boss of Metroid Fusion. Its attack pattern includes curling up into a ball. Because of this, it carries the Morph Ball upgrade, which is absorbed by Samus when the core is destroyed. This version of Arachnus is only an X Parasite clone, not the original one from SR388. Its attacks include a flamethrower and sonic energy waves.
+
+Arachnus is also known by the name "Mulcalah", most notably in the Metroid Fusion soundtrack.
+
+Autoad
+The Autoad is a jumping toadlike robot built by an ancient civilization. It is programmed to stop intruders.
+
+Autom
+An indestructible defense mechanism that flies horizontally. This creature activates a flamethrower when Samus comes near.
+
+Autrack
+
+Autrack is a robot from Metroid II: Return of Samus which travels along a track.
+
+The Autrack can be found in numerous Chozo structures on the planet SR-388, where it acts as a point defense turret. The autrack is typically found hidden behind a wall or small structure, where it is protected when not firing. When it detects an intruder, its track arm extends, and the cannon fires, once it has fired, the arm retracts while the weapon reloads for another shot.
+
+Blob Thrower
+
+This plant creature is found on Planet SR388. It comes out of the ground and spits out little blobs that hover around, and then it retracts back into the ground. Killing the blobs is a good way to refill Samus' health and ammo.
+
+Chute Leech
+
+The Chute Leech is seen in Metroid II: Return of Samus, Super Metroid and as an X Parasite clone in Metroid Fusion, being found on both SR388 and Zebes. It has a flat body, and its attack is to jump up into the air, and then glide down with its parachute like body. The variant on Zebes has rows of teeth visible on its underside. They are more a nuissance than a serious threat. The X Parasite variant can release acid.
+
+Drivel
+Gigantic bats that live in dark places. When Samus comes close, the Drivel dives toward her.
+
+Gravitt
+
+This crustaceous creature hides in the floor, only coming out to attack when Samus comes close. Appears in Metroid II: Return of Samus.
+
+Gullugg
+
+Gulluggs have long, needle-like noses and fly around in circles. They are found on Planet SR388. They frequently yield missiles when killed.
+
+Gunzoo
+
+This mechanical defence mechanism attacks any intruder with 4 guns on its belly. It is impervious to Samus' weapons because of its hard plating.
+
+Hornoad
+Hornoads resemble frogs and hop around as such. Their name is a portmanteau of horn and toad. They frequently yield missiles when killed. They are only found in Metroid 2, and in Metroid Fusion in the form of X-Parasite copies. In Metroid Fusion, a Hornoad infects Samus with the X-Parasite. Curiously enough, Hornoads are one of the only creature in Metroid Fusion that has a non-infected state: it is generally hard to see due to coloring, but green versions of Hornoads wait in the areas that Hornoads appear as enemies, and transform into the red version once possessed with an X-Parasite. However, they are untouchable until infected, merely acting as background.
+
+
+Moheek
+
+Moheeks look like fish with tendrils coming out of their heads. They move slowly on the walls of the acid areas on Planet SR388. Although they are not aggressive, they do a relatively high amount of damage if Samus touches them.
+
+
+Proboscum
+
+The Proboscum is a harmless, invulnerable robotic drone found on SR388. There is much speculation over its original purpose, as it is typically found malfunctioning and clamped onto a vertical wall, where its swivelling arm can be used as a platform.
+
+
+Septogg
+
+Septoggs are found on Planet SR388. They hover in one place and do no damage to Samus, so she can use them as platforms. However, their tiny wings can't support her weight, so standing on them causes them to descend quickly.
+
+
+Wallfire
+
+This immobile sentry is mounted on walls in the ruins of SR388, and becomes active only when an unrecognized lifeform enters range. The Wallfire is capable of projecting fireballs towards any threats, which can be frozen with the Ice Beam. They are also capable of regenerating damage if no threats are nearby.
+
+SR388
+
+SR388 (sometimes SR-388, rarely SR 388) is the setting of Metroid II: Return of Samus. It is the Metroid creatures' home world. The Chozo had their own civilization on the planet at one point in time. Metroid Fusion takes place in a research station in orbit around the planet.
+
+SR388's surface is rough, dry, and rocky. This world is host to many dangerous creatures and killer robots. The lowest levels of the planet, called the SR388 Underworld, are home to ancient Chozo ruins. Later in time, these structures were destroyed by the Metroids. The planet's core emits a strong gamma radiation, acting as a catalyst to the evolution of the Metroids.
+
+By the time of Metroid II, the planet is overrun with all sorts of indigenous species as well as the Metroids.
+
+Before the Chozo came to SR388, the destructive X Parasites were set to overrun the planet with their vast, insurmountable numbers. To keep them in check, the Chozo created the Metroids and let them loose on the planet. The Metroids did keep the X Parasites in check very well, but when Samus Aran eradicated the species in Metroid II because they were deemed too dangerous to ignore, the X came back in large numbers. One thing should be noted, as it may be a minor continuity issue: the X Parasites are first mentioned in Metroid Fusion, but they are never seen during the course of the Metroid II game. This could just mean that the Metroids regulated the X Parasites' numbers so well that there were relatively few left by the time of Metroid Fusion. It is also possible there were no full X Parasite colonies, which made them invisible to the naked eye.
+
+At the end of Metroid Fusion, Samus sets the B.S.L. station to impact with SR388, which causes an explosion that vaporizes both the station and the entire planet, destroying the X Parasites in the process.
+
+
+Galactic Federation Trooper
+Galactic Federation Commander
+Galactic Federation Robotic Guard
+Space pirate
+Space pirate Ace
+Space pirate Beas
+KiHunter: Flying insectoid, loses wings
+Torizo: Chozo guardian statue
+Cacatac: Catus, throws spines
+Zoomers: Small semi-spherical mollusks with spikes along their backs. Their intellect is limited to walking in set patterns along the terrain
+Zeela: Yellow crabs
+Shriekbat: bat-like aerials who hang upside-down from ceilings. They have an extremely high body temperature and are very territorial - if anything wanders into their territory they fly towards the intruder and explode.
+Metroid
+Alpha Metroid
+Gamma Metroid
+Zeta Metroid
+Omega Metroid
+
+tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt
+tttttttttttttttttttxxxxxxxxxtttttttttttttttttttttttttttttttttttttttttttt
+ttttttttttttttttttttttxxxxxxxxxxxxtttttttttttttttttttttttttttttttttttttt
+ttttttttttttttttttttttttttttttxxxxxxxxxxxxxxxttttttttttttttttttttttttttt
+ttttttttttttttttttxxxxxxxxxxxxxxxxxxxxtttttttttttttttttttttttttttttttttt
+tttttttttttxxxxxxxxxxxxxxxxxxttttttttttttttttttttttttttttttttttttttttttt
+xxxxxtttttttxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxttttttttttttxxxxxxxxxxxxxx
+txxxxtttxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxtttttttttxxxxxxxxxxxx
+xtttttttttxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxtttttttttttttttxxx
+xxxtttxxxxxxxxxxxxxxx........................xxxxxxttttttttttttttttttxxx
+xxxxxxxxxxxxxx...................xxxxxxxxxxxxxxxxxxxxxxxtttttttttttttxxx
+tttttttxxxxxxxxxxxxxxxx................xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxx..................xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...........xxxxxxxxxxxtttttttttttxxxxxx
+xxxxxx.........................................xxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxx......xxxxx.......===...............xxxxxxxxxxxxxxxxxxxxttttxxxxx
+xxx.....xxxxxxx.........<.S.>......xxxxxxxxxxxxxxxxxxxxxxxxxxxtttttxxxxx
+xxxxxxxxxxxxxxxxxx...........................xxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxx...............xxx.................xxxxxxxxxxxxxxxxx
+xxxxxxttttxxxxxxxx......xxxxxxxxxxxxxxxxxxxx.....xxxxxxxxxxxxxtttttxxxxx
+xxxtttttttttxxxxxxx...........xxxxxxxxxxxxxxxx...........xxxxxxxxxttxxxx
+xxxxxxtttxxxxxxxxxxxxxx.................xxxxxxxx.......xxxxxxxxxxxtttxxx
+xxxxxxxxxxxxxxxx...................................xxxxxxxxxxxtttttxxxxx
+xxxxxxxxxxxx...............xxxxx...xxxx................xxxxxxxxxttttxxxx
+xxxx........................xxxxxxxxxxxxxxx..........xxxxxxxxxxxxtxxxxxx
+xxxxxxxxxxxxxx......................xxxxxxxxx..........x.......ttt......
+xxxxxxxxxx........xxxxxxxxxxxxxxxxxxxxxxxx.............................N
+xxxxxxxxxxxxx.............xxxxxxxxxxxxxxx..............xxxx.............
+xxxxxxxxxxx..................................xxxxxxxxx...xxxxxxxxxxxxxxx
+xxxxxxxxx...............xxxxxxxxxxxxxxxx...................xxxxxxxxxxxxx
+xxxxxxx...........................xxxxxxxxxxxxxx...xxxxx....xxxxxxxxxxxx
+xxxxx................................xxxxxxxxxx.....xxx.....xxxxxttttxxx
+xxxxxxxxx....................xxxxxxxxxxxxxxxxx...........xxxxxxtttxxxxxx
+xxxxxxxxxxxxxx...........xxxxxxxxxxxxxxxxxxx..............xxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxx.....xxxxxxxxxxxxxxxxxx.....................xxxxxxxxxxx
+xxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.......xxxxxxxxxxtttxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxtttx
+ttttxxxxxxxxxxxttttttttxxxxxxxxxxxxxxttttttttttttttttttttttttttttttttttt
+ttttttttxxxxxxxxtttttttttttttttttttttttttttttttttttttttttttttttttttttttt
+tttttttttttttttttttttttttttttttttttttttttttttttxxxxxxxxxxxxxxttttttttttt
+tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt
+
+
+Planet X86, local name Janos,
+
+Contact with Galactic Federation Weaponry research facility has been lost 3 days ago. Three Scout ships sent to investigate the problem have been shot down by federation fire and a disruption field has covered the area surrouding the base, preventing long range scanners to detect activity.
+
+Galactic Commander Adam Becgim, appointed leader of the base, has been preliminary judged as a rebel to the federation.
+
+The base was built over a plasma shaft that goes deep into the planet; spontaneous bursts of plasma energy have been detected on the stratos of the planet, indicating possible activity from the base. Also, a class V unidentified space craft landed on the base 1 day ago.
+
+Bounty Hunter Samus Aran, you have been assigned a mission: to land safely on X86 planet and infiltrate the base, you must neutralize the menace and report back on the base status.
+
+8ttttttttttttttttttttttttttttttttttttttttttttt-ttttttttttttt-tttttttttttt9
+8tttttttttttttttttttxxxxxxxxxttttttttttttttttt-ttttttttttttt-tttttttttttt9
+8ttttttttttttttttttttttxxxxxxxxxxxxttttttttttt--tttttttttttt-tttttttttttt9
+8ttttttttttttttttttttttttttttttxxxxxxxxxxxxxxxt-tttttttttttt--ttttttttttt9
+8ttttttttttttttttttxxxxxxxxxxxxxxxxxxxxtttttttt-ttttttttttttt--t.tttttttt9
+8tttttttttttxxxxxxxxxxxxxxxxxxtttttttttttttttt--tttttttttttttt--....ttttt9
+8xxxxxtttttttxxxxxxxxxxxxxxxxxxxxxxxxxxx-------ttttttttttttx...--.......x9
+8txxxxtttxxxxxxxxxxxxxxxxxxxxxxxxxxxxx---wwxxxxxxxxxtttttt......--....xxx9
+8xtttttttttxxxxxxxxxxxxxxxxxxxxxxxxxx--xxxxxxxxxxxxxxxxtt........------xx9
+8xxxtttxxxxxxxxxxxxxxx..............--........xxxxxxttt.....ttt...tttt--x9
+8xxxxxxxxxxxxxx...................xx-xxxxxxxxxxxxxxxxxxxx.....ttt..tttSSS9
+8tttttttxxxxxxxxxxxxxxxx............-...xxxxxxxxxxxxxxx..........SSSSSS*S9
+8xxxxxxxxxxxxxxxxxx.................-xx.........................xS******S9
+8xxxxxxxxxxxxxx.....................-.....................tt.....S******S9
+8xxxxxx............................--............................S******S9
+8xxxxxxx......xxxxx................-.......................SSSSSSS******S9
+8xxx.....xxxxxxx...................-...................xxxxS************S9
+8xxxxxxxxxxxxxxxxxx................-...x...................S************S9
+8xxxxxxxxxxxxxxx...................-...x................xxx*************S9
+8xxxxxxttttxxxxxx..................-..xx...................*************X9
+8xxxtttttttttx.....................-......................x*************S9
+8xxxxxxtt.x.xx.....................-....................xxxS************S9
+8...................................................xxxxxxxS************S9
+8Y......................................................xxxSSSSSSS******S9
+8.....................................................xxxxxx.....S******S9
+8xx..xxxxxx...x....................-....................x.......tS******S9
+8xxxxxxxxxx........................-...xx........................S******S9
+8xxxxxxxxxxxxx.....................-....xx..............xxxx.....SSSSSS*S9
+8xxxxxxxxxxx.......................-.....x...........xx...xxxxxxxxxxxxSSS9
+8xxxxxxxxxxxxxxxxx.................-........................xxxxxxxxxxxx-9
+8xxxxxxx....xxxx...................--xxxx..xxxxxx...xxxxx....xx.....xxxx-9
+8xxxxx........xxx...................--xxxxxx.........xxx.....xx..xttttxx-9
+8xxxxxxxxx...xxxxx............xxxxxxx--xxxxxxxx...........xxxxxxt...xxxx-9
+8xxxxxxxxxxxxxx...........xxxxxxxxxxxx--xxxxx..............xxxxxxx..xxxx-9
+8xxxxxxxxxxxxxxxxx.....xxxxxxxxxxxxxxxx--.....................xxxxxxxx---9
+8xxxxxxxxxxxxxxxxx.xxxxxxxxxxxx...xxxxxx-xxxxxxxx.......xxxxxxxxxxtttx-xx9
+8xxxxxxxxxxxxxxxxxxxxxxxxxxxxx....xxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxx--xx9
+8xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxx--ttx9
+8ttttxxxxxxxxxxxttttttttxxxxxxxxxxxxxxtt---ttttttttttttttttttttttt---tttt9
+8ttttttttxxxxxxxxttttttttttttttttttttttttt--ttttttttttttttttttttt--tttttt9
+8tttttttttttttttttttttttttttttttttttttttttt--tttxxxxxxxxxxxxxxttt-ttttttt9
+8ttttttttttttttttttttttttttttttttttttttttttt--ttttttttttttttttttt-ttttttt9
+
+
+8tt----------------------------------------------------------------------9
+8t--.....................................................................9
+8t-......................................................................9
+8--...........SSSSSSSWSSSSSSSSSSSSWWSSSSSSSSSSSSSSWSSSSSSS...............9
+8-...........SS***************S******..S.................SS..............9
+8-...........S................S........S..................SS.............9
+8-..........SS................S........S...................SS............9
+8-.........SS......ato........S........S....................S............9
+8-.........S..................S........S....................S............9
+8-.........S..................S........S....................S............9
+8-.........S..................S........S....................S.........SSS9
+8-.........W................................................W....SSSSSS*S9
+8-.........S..................S........S....................S....S******S9
+8-.........S..................S........S....................S....S******S9
+8-.........S..................S........S....................S....S******S9
+8-.........S..................S........S...................SSSSSSS******S9
+8SSSSSSSSSSSSSSWSSSSSSSSSSSSSSSSS....SSSSSSSSSSSSSSSSSSSSSSS*****SSSSSSSS9
+8S**********************************************************************S9
+8S**********************************************************************S9
+8***********************************************************************S9
+8S**********************************************************************S9
+8S**********************************************************************S9
+8SSSSSSSSSSSSSSWSSSSSSSSSSSSSSSSS....SSSSSSSSSSSSSSSSSSSSSSS*****SSSSSSSS9
+8-.........S..................S.........S..................SSSSSSS******S9
+8-.........S..................S.........S..................S.....S******S9
+8-.........S..................S............................S.....S******S9
+8-.........S............................S..................S.....S******S9
+8-.........S..................S.........S..................S.....SSSSSS*S9
+8-.........S..................S.........S.................SS..........SSS9
+8-.........S..................S.........S.................S..............9
+8-.........S..................S.........S.................S..............9
+8-.........SS.................S.........S.................S..............9
+8-..........SS................S.........S................SS..............9
+8-...........S................S.........S...............SS...............9
+8-...........S................S.........S..............SS................9
+8-...........SS...............S.........S.............SS.................9
+8-............SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS...............9
+8-.......................................................................9
+8-.......................................................................9
+8-.......................................................................9
+8--......................................................................9
+8.-----------------------------------------------------------------------9
+
+8tt----------------------------------------------------------------------9
+8t--*********************************************************************9
+8t-**********************************************************************9
+8--***********SSSSSSSWSSSSSSSSSSSSWWSSSSSSSSSSSSSSWSSSSSSS***************9
+8-***********SS*****ATO*******S********S*********BAC*****SS**************9
+8-***********S****************S********S******************S**************9
+8-**********SS****************S********S******************SS*************9
+8-*********SS*****************S********S*******************SS************9
+8-*********S******************S********S********************S************9
+8-*********S*********1********S********S**********2*********S************9
+8-*********S******************S********S********************S*********SSS9
+8-*********W************************************************W****SSSSSS*S9
+8-*********S******************S********S********************S****S******S9
+8-*********S******************S********S********************S****S******S9
+8-*********S******************S********S********************S****S******S9
+8-*********S******************S********S*******************SSSSSSS******S9
+8SSSSSSSSSSSSSSWSSSSSSSSSSSSSSSSS****SSSSSSSSSSSSSSSSSSSSSSS*****SSSSSSSS9
+8S**********************************************************************S9
+8S**********************************************************************S9
+8***********************************************************************S9
+8S**********************************************************************S9
+8S**********************************************************************S9
+8SSSSSSSSSSSSSSWSSSSSSSSSSSSSSSSS****SSSSSSSSSSSSSSSSSSSSSSS*****SSSSSSSS9
+8-*********S******************S*********S******************SSSSSSS******S9
+8-*********S******************S*********S*******************S****S******S9
+8-*********S******************S*****************************S****S******S9
+8-*********S****************************S*******************S****S******S9
+8-*********S******************S*********S*******************W****SSSSSS*S9
+8-*********S******************S*********S*******************S*********SSS9
+8-*********S*********3********S*********S*********4*********S************9
+8-*********S******************S*********S*******************S************9
+8-*********SS*****************S*********S******************SS************9
+8-**********SS****************S*********S*****************SS*************9
+8-***********S****************S*********S*****************S**************9
+8-***********SS*****CHE*******S*********S********GEN*****SS**************9
+8-************SSSSSSSWSSSSSSSSSSSSSSSSSSSSSSSSSSSSWSSSSSSS***************9
+8-***********************************************************************9
+8-***********************************************************************9
+8-***********************************************************************9
+8-***********************************************************************9
+8--**********************************************************************9
+8*-----------------------------------------------------------------------9
+
+
+8SSSSSSSSSSSSSSSSS9
+8S...............S9
+8S...............S9
+8S.......U.......S9
+8S..R.........R..S9
+8S...............S9
+8S...............S9
+8S...............S9
+8S...R.........R.S9
+8S...............S9
+8SSSSSSSSESSSSSSSS9
